@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
     // Define proxy
-    var proxy = "PROXY turbo-scbkt864.edge.prod.fortisase.com:11516";
+    var proxy = "turbo-scbkt864.edge.prod.fortisase.com:11516";
     var direct = "DIRECT";
 
     // Exclude IP 103.166.137.254
@@ -15,4 +15,5 @@ function FindProxyForURL(url, host) {
 
     // Default — use proxy
     return proxy;
+
 }
