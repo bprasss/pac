@@ -5,4 +5,5 @@ function FindProxyForURL(url, host) {
    // All other requests go through port 8080 of proxy.example.com.
    return "PROXY 1.2.3.4:8087; DIRECT";  // <---  make sure that the domain should resolve to proxy IP address
    return "DIRECT";
+
 }-
